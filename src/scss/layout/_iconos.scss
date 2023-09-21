@@ -1,0 +1,22 @@
+.seccion {
+  h1 {
+    margin-bottom: 5rem;
+  }
+}
+.iconos-nosotros {
+  @include tablet {
+    @include grid(3, 2rem);
+  }
+}
+
+.icono {
+  text-align: center;
+  padding: 0 2rem;
+  display: grid;
+  img {
+    height: 10rem;
+  }
+  h3 {
+    text-transform: uppercase;
+  }
+}

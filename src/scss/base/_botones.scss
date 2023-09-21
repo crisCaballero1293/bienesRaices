@@ -1,0 +1,13 @@
+.btn-amarillo {
+  @include btn($amarillo, block);
+}
+.btn-amarillo-inline {
+  @include btn($amarillo, inline-block);
+}
+.btn-verde {
+  @include btn($verde, inline-block);
+}
+
+.hover-verde {
+  @include hoverColor($verde);
+}
